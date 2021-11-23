@@ -6,7 +6,6 @@ int compf (const void * a, const void * b)
 {
   if ( *(float*)a <  *(float*)b ) return -1; if ( *(float*)a == *(float*)b ) return 0; if ( *(float*)a >  *(float*)b ) return 1;
 }
-
 int main (){
   clock_t Ticks[2];
   Ticks[0] = clock();
@@ -20,7 +19,6 @@ int main (){
     printf("\n============\nNúmero %d: ", i+1);
     scanf("%f", &x[i]);
   }
-
   printf("\nEm ordem crescente, eis o resultado: \n");
   qsort (x, n, sizeof(float), compf);
   for (i=0; i<n; i++){
