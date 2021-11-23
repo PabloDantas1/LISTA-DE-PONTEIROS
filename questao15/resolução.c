@@ -16,7 +16,7 @@ int main(void) {
   scanf("%d", &n);
   
   float *x;
-  i = malloc{n * floar *(sizeof)};
+  x = malloc{n * floar *(sizeof)};
   for(i=0; i<n; i++){
     printf("\nValor: %d: ", i+1);
     scanf("%f", &x[i]);
