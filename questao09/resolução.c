@@ -16,4 +16,4 @@ int main(){
   }
 }
 
-// O código está a exibir a posição da memória em cada valor citado.
+// O código está a exibir a posição em hexadecimal dos elemntos do vetor.
