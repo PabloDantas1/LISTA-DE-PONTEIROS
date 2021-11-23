@@ -1,0 +1,11 @@
+x for declarado como char?
+x+1 será igual a 4093; x+2 será igual a 4094; x+3 será igual a 4095.
+
+x for declarado como int?
+x+1 será igual a 4094; x+2 será igual a 4096; x+3 será igual a 4098.
+
+x for declarado como float?
+x+1 será igual a 4096; x+2 será igual a 4100; x+3 será igual a 4104.
+
+x for declarado como double?
+x+1 será igual a 4100; x+2 será igual a 4108; x+3 será igual a 4116.
