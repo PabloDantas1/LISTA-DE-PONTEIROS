@@ -1,0 +1,6 @@
+Comparando os resultados, foi possível perceber que o programa no qual utiliza-se da função "qsort",
+obteve um resultado superior.
+
+Colocando ambos em situação semelhantes, com a mesma quantidade de elementos, foi dado o seguinte resultado:
+1º código -> 0.324 ms
+2º código -> 0.296 ms
