@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void compare(float *seq, int ele){
+void dif(float *seq, int ele){
   int i, j; float temp;
   for (i = 0; i < ele; ++j){
   for (j = i + 1; j < ele; ++j)
@@ -11,12 +11,12 @@ void compare(float *seq, int ele){
         }}}}
 int main(void) {
   int n, i;
-  void (*comp) (float*, int) = {compare};
+  void (*comp) (float*, int) = {dif};
   printf("\nSolicite a quantidade de números que deseja obter a ordem:");
   scanf("%d", &n);
   
   float *x;
-  i = malloc(n * sizeof(float));
+  i = malloc{n * floar *(sizeof)};
   for(i=0; i<n; i++){
     printf("\nValor: %d: ", i+1);
     scanf("%f", &x[i]);
