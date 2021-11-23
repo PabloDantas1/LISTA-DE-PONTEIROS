@@ -1,0 +1,15 @@
+a. aloha[2] = value; -> Válido, atribuindo o valor contido na variável “value” ao terceiro elemento do vetor “aloha”;
+
+b. scanf("%f", &aloha); -> Válido, solicitando para inserir o valor do primeiro elemento do vetor “aloha”;
+
+c. aloha = "value"; -> Inválido, encontra-se entre aspas, logo é uma String;
+
+d. printf("%f", aloha); -> Válido, irá exibir o primeiro elemento do vetor “aloha”;
+
+e. coisas[4][4] = aloha[3]; -> Válido, pois está atribuindo um valor do vetor “aloha” à matriz “coisas”;
+
+f. coisas[5] = aloha; -> Inválido, pois há declaração apenas da linha da matriz;
+
+g. pf = value; -> Inválido, pois não está atribuindo endereço ao ponteiro;
+
+h. pf = aloha; -> Válido, pois está recebendo o primeiro valor do vetor.
