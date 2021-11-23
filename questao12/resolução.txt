@@ -1,0 +1,2 @@
+Tem como principal característica definir a função a ser utilizada, além do seu ágil tempo de execução,
+sem haver a necessidade de citar repetitivamente o nome da função naquele ponto em especifico do código.
