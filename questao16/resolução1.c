@@ -19,7 +19,6 @@ int main(void) {
   void (*comp) (float*, int) = {compp}; 
   printf("\nSolicite a quantidade de ordens: ");
   scanf("%d", &n);
-
   float *x;
   x = malloc(n * sizeof(float));
 
@@ -27,12 +26,11 @@ int main(void) {
     printf("\n============\nNúmero %d: ", i+1);
     scanf("%f", &x[i]);}
   (*comp) (x, n);
-
   printf("\nEm ordem crescente, eis o resultado: \n");
   for (i=0; i<n; i++){
     printf ("%.1f - ",x[i]);}
   free(x); 
-
+  
   Ticks[1] = clock();
   double time = (Ticks[1] - Ticks[0]) * 1000.0 / CLOCKS_PER_SEC;
   printf("\n============\n%g ms", time);
