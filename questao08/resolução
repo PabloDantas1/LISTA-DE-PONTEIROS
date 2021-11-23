@@ -1,1 +1,6 @@
+A) p = mat + 1; -> Irá receber o segundo elemento do vetor, pois iniciou-se com o primeiro elemento e foi dado um salto na memória, indo para a segunda colocação;
+B) p = mat; -> Irá receber somente o primeiro elemento do vetor, pois não é dado nenhum salto na memória;
+C) p = mat; -> Irá receber somente o primeiro elemento do vetor, pois não é dado nenhum salto na memória;
+D) x = (*mat); -> Recebe o conteúdo do primeiro elemento do vetor "mat".
 
+Logo, todas as expressões citadas anteriormente são válidas.
