@@ -1,1 +1,2 @@
-*(pulo + 2); -> Mostra o conteúdo do vetor na posição 3, pois ocorreu 2 pulos na memória em relação a posição 1, situada inicialmente.
+A expressão "*(pulo + 2);" referencia o valor do terceiro elemento do vetor.
+-> Mostra o conteúdo do vetor na posição 3, pois ocorreu 2 pulos na memória em relação a posição 1, situada inicialmente.
