@@ -11,7 +11,6 @@ void compp(float *seq, int ele){
         if (seq[i] > seq[j]){
             tmp =  seq[i]; seq[i] = seq[j]; seq[j] = tmp;
         }}}}
-
 int main(void) {
   clock_t Ticks[2];
   Ticks[0] = clock();
